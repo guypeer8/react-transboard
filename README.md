@@ -105,10 +105,13 @@ const Info = () => {
                 )}
             </ul>
             <div>Translations: {JSON.stringify(translations, null, 2)}</div>
-            <button onClick={() => translateTo('Russian')}></button>
-            <button onClick={() => alert(HELLO)}>
-                Say hello in the current language!
-            </button>
+            <div>
+                <button onClick={() => translateTo('Spanish')}>Spanish</button>
+                <button onClick={() => translateTo('Russian')}>Russian</button>
+                <button onClick={() => alert(HELLO)}>
+                    Say hello in the current language!
+                </button>
+            </div>
         </div>
     );
 };
