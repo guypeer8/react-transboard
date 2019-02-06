@@ -19,9 +19,13 @@ npm install --save react-transboard
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { 
+    TranslationProvider, 
+    TranslationViewer, 
+    Translator,
+} from 'react-transboard';
 import AppRouter from './router';
 import StoreProvider from './store';
-import { TranslationProvider, TranslationViewer, Translator } from 'react-transboard';
 
 const dict = {
     Spanish: {
@@ -59,11 +63,11 @@ ReactDOM.render(
 
 ```js
 import React from 'react';
+import { t } from 'react-transboard';
 import { NavLink } from 'react-router-dom';
 import AuthLayout from './Base/AuthLayout';
 import LoginForm from './Base/LoginForm';
 import LoginMessage from './Base/LoginMessage';
-import { t } from 'react-transboard';
 
 const Login = () => (
     <AuthLayout header={t('Connect to your account')}>
