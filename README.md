@@ -8,8 +8,7 @@ npm install --save react-transboard
 ```
 
 ## Usage
----
-#### Top level usage
+### **Top level usage**
 - **`react-transboard`** supplies `TranslationProvider`, `Translator` and `TranslationViewer` components. 
     - `TranslationProvider` is the translation context provider of the app.
         - `props`:
@@ -55,7 +54,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 ```
-#### The text in the application
+### **The text in the application**
 - **`react-transboard`** supplies the function `t` which you should pass your text to using the base language you want to translate from, so the text in your app will be trackable by the `Translator`.
 
 ```js
@@ -79,7 +78,7 @@ const Login = () => (
 
 export default Login;
 ```
-#### Translation hooks
+### *Translation hooks*
 - **`react-transboard`** supplies 2 very useful hooks that expose data and functionality.
     - `useTranslations` lets you extract:
         - `baseLocale` which is the base language you translate from.
