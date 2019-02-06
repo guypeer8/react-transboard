@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.deserializeTranslations=void 0;var _const=require("../const"),deserializeTranslations=function(a){try{var b=window.localStorage.getItem(a||_const.TRANSLATIONS_KEY);return JSON.parse(b||"{}")}catch(a){return{}}};exports.deserializeTranslations=deserializeTranslations;

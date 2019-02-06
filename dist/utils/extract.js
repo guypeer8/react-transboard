@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.extractTranslation=extractTranslation;function extractTranslation(a){var b={};return Object.keys(a).forEach(function(c){Array.isArray(a[c])&&2===a[c].length&&(b[c]=a[c][0])}),b}
