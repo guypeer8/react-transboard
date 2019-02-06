@@ -78,7 +78,7 @@ const Login = () => (
 
 export default Login;
 ```
-### *Translation hooks*
+### **Translation hooks**
 - **`react-transboard`** supplies 2 very useful hooks that expose data and functionality.
     - `useTranslations` lets you extract:
         - `baseLocale` which is the base language you translate from.
