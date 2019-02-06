@@ -11,7 +11,13 @@
     "publish-demo": "npm run build && npm run deploy"
   },
   "keywords": [
-    "react"
+    "react",
+    "translation",
+    "translator",
+    "translate",
+    "multilingual",
+    "languages",
+    "locales"
   ],
   "author": "Guy Peer",
   "license": "ISC",

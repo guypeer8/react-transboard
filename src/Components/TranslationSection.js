@@ -17,6 +17,7 @@ const TranslationSection = React.memo(({
     const [changed, setChanged] = localeChangeIndicator;
 
     const localeHasTranslations = Object.keys(translations[translating_locale] || {}).length > 0;
+    console.log(localeChangeIndicator);
     return (
         <TranslationSectionContainer>
             <TranslationHeader/>

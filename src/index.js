@@ -2,6 +2,7 @@ import TranslationProvider from './Providers/Store';
 import TranslationViewer from './TranslationViewer';
 import useTranslations from './useTranslations';
 import Translator from './Translator';
+import useDict from './useDict';
 import t from './Translate';
 
 export {
@@ -9,5 +10,6 @@ export {
     TranslationViewer,
     useTranslations,
     Translator,
+    useDict,
     t,
 };
