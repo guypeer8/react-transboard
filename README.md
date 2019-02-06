@@ -5,8 +5,9 @@
 ## Demo
 
 ## Installation
-```
+```js
 npm install --save react-transboard
+```
 
 ## Usage
 ```js
@@ -25,7 +26,6 @@ const App = () => (
         <Translator/>
         <TranslationViewer/>
         <StoreProvider>
-            <LocaleWidget/>
             <AppRouter/>
         </StoreProvider>
     </TranslationProvider>
