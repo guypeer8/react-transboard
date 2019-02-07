@@ -1,6 +1,6 @@
 {
   "name": "react-transboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A translation board for making your react app multilingual",
   "main": "dist/index.js",
   "scripts": {
