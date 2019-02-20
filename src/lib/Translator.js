@@ -8,10 +8,10 @@ import TranslationSetup from './Components/TranslationSetup';
 import WidthAdjuster from './Components/WidthAdjuster';
 import CloseIcon from './Components/CloseIcon';
 
-import { LOCALES, BASE_LOCALE_KEY, TRANSLATABLE_LOCALES_KEY, TRANSLATED_LOCALE_KEY, TRANSLATE_BUTTON } from './const';
-import { serializeTranslations, buildTranslations, extractTranslation } from './utils';
-import { getStore as getTranslationStore } from './Providers/Store';
-import { useTranslationsTracker } from './hooks';
+import { LOCALES, BASE_LOCALE_KEY, TRANSLATABLE_LOCALES_KEY, TRANSLATED_LOCALE_KEY, TRANSLATE_BUTTON } from '../const';
+import { serializeTranslations, buildTranslations, extractTranslation } from '../utils';
+import { getStore as getTranslationStore } from '../Providers/Store';
+import { useTranslationsTracker } from '../hooks';
 
 const timeoutByLocale = {}; // { locale: timeout }
 

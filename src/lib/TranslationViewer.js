@@ -1,6 +1,6 @@
 import React from 'react';
 import StateViewer from 'react-state-trace';
-import { getStore as getTranslationStore } from './Providers/Store';
+import { getStore as getTranslationStore } from '../Providers/Store';
 
 const StateTrace = () => {
     const translationStore = getTranslationStore();

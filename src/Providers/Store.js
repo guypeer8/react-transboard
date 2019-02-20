@@ -1,6 +1,5 @@
 import React, { createContext, useContext } from 'react';
 import useTranslationStore from '../hooks/useStore';
-
 const TranslationContext = createContext(null);
 
 const TranslationProvider = ({ children, dev, dict }) => {

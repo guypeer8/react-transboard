@@ -1,12 +1,13 @@
 {
   "name": "react-transboard",
-  "version": "1.0.5",
+  "version": "1.1.4",
   "description": "A translation board for making your react app multilingual",
-  "main": "src/index.js",
+  "main": "dist/lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "compile": "babel src -d dist && minify dist -d dist",
     "build": "webpack --mode production",
+    "b": "`yarn bin`/babel ./src/lib --out-dir ./dist/lib ",
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "immer": "^2.0.0",
+    "react-state-trace": "^1.2.3",
     "semantic-ui-react": "^0.84.0",
     "styled-components": "^4.1.3"
   },
@@ -41,8 +43,11 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "babel-minify": "^0.5.0",
+    "babel-plugin-styled-components": "^1.10.0",
     "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"

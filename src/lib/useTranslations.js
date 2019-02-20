@@ -1,4 +1,4 @@
-import { getStore as getTranslationStore } from './Providers/Store';
+import { getStore as getTranslationStore } from '../Providers/Store';
 
 function useTranslations() {
     const { translationState, dispatchTranslation } = getTranslationStore();

@@ -1,12 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/lib/index.js',
     output: {
         path: path.resolve(__dirname, './dist/lib'),
         filename: 'index.js',
-        library: '',
-        libraryTarget: 'commonjs'
+        libraryTarget: 'commonjs2',
     },
     module: {
         rules: [
@@ -16,11 +15,5 @@ module.exports = {
                 use: 'babel-loader',
             },
         ],
-    },
-    // optimization: {
-    //     minimize: true,
-    // },
-    devServer: {
-        port: 3001,
     },
 };

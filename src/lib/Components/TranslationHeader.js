@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from "semantic-ui-react";
-import { getStore } from "../Providers/Store";
+import { getStore } from "../../Providers/Store";
 
 const TranslationHeader = () => {
     const { base } = getStore().translationState;

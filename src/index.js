@@ -1,9 +1,9 @@
 import TranslationProvider from './Providers/Store';
-import TranslationViewer from './TranslationViewer';
-import useTranslations from './useTranslations';
-import Translator from './Translator';
-import useDict from './useDict';
-import t from './Translate';
+import TranslationViewer from './lib/TranslationViewer';
+import useTranslations from './lib/useTranslations';
+import Translator from './lib/Translator';
+import useDict from './lib/useDict';
+import t from './lib/Translate';
 
 export {
     TranslationProvider,

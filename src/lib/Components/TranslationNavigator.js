@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Button, Icon } from 'semantic-ui-react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { getStore as getTranslationStore } from '../Providers/Store';
+import { getStore as getTranslationStore } from '../../Providers/Store';
 
 const TranslationNavigator = React.memo(({ showTranslatedJson, toggleTranslatedJson, setIsAddingTranslatable }) => {
     const { translationState } = getTranslationStore();

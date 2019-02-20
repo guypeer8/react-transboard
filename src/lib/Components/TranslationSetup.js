@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Button, Dropdown, Icon} from 'semantic-ui-react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { getStore } from '../Providers/Store';
+import { getStore } from '../../Providers/Store';
 
 const TranslationSetup = React.memo(({ locales, unused_locales, isAddingTranslatable, setIsAddingTranslatable }) => {
     const { translationState, dispatchTranslation } = getStore();

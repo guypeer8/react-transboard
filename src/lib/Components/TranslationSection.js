@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import { Button } from 'semantic-ui-react';
 import TranslationHeader from './TranslationHeader';
 import LocaleTranslator from './LocaleTranslator';
-import { getStore } from "../Providers/Store";
-import { TRANSLATE_BUTTON } from '../const';
+import { getStore } from "../../Providers/Store";
+import { TRANSLATE_BUTTON } from '../../const';
 
 const TranslationSection = React.memo(({
     localeTranslations,

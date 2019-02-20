@@ -1,4 +1,4 @@
-import { getStore } from './Providers/Store';
+import { getStore } from '../Providers/Store';
 
 const t = (text) => {
     const { translationState, ___development } = getStore();

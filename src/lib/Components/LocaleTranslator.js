@@ -2,7 +2,7 @@ import React from 'react';
 import { Input, Table } from 'semantic-ui-react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { getStore as getTranslationStore } from '../Providers/Store';
+import { getStore as getTranslationStore } from '../../Providers/Store';
 
 const LocaleTranslator = React.memo(({ localeTranslations, setChanged }) => {
     const { translationState } = getTranslationStore();
