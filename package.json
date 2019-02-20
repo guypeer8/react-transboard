@@ -1,8 +1,8 @@
 {
   "name": "react-transboard",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A translation board for making your react app multilingual",
-  "main": "dist/lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "compile": "babel src -d dist && minify dist -d dist",
