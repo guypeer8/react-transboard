@@ -1,7 +1,7 @@
 # react-transboard
 
 - A translation board for making your react app multilingual.
-[!See GIF](https://media.giphy.com/media/3gL2vTWy9o4B61dX8U/giphy.gif)
+[GIF](https://media.giphy.com/media/3gL2vTWy9o4B61dX8U/giphy.gif)
 
 ## Installation
 ```js
